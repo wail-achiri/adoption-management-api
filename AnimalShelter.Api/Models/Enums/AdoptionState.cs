@@ -2,8 +2,9 @@
 {
     public enum AdoptionState
     {
+        REJECTED,
         INPROCESS,
-        FINISHED,
+        COMPLETED,
         CANCELED
     }
 }

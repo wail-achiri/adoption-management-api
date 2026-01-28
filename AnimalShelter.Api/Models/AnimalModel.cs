@@ -10,6 +10,10 @@ namespace AnimalShelter.Api.Models
         public string Breed { get; set; }
         public AnimalType Type { get; set; }
         public AnimalState State { get; set; }
+
+        // 1 ANIMAL - N ADOPTIONS
+
+        public ICollection<AdoptionModel> Adoptions { get; set; }
     }
 
 }

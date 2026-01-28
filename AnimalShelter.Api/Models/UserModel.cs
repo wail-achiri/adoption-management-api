@@ -11,5 +11,9 @@ namespace AnimalShelter.Api.Models
         public string Password { get; set; }
         public UserRol Rol { get; set; }
         public UserState State { get; set; }
+
+
+        public ICollection<AdoptionModel> VolunteerAdoptions { get; set; }
+        public ICollection<AdoptionModel> AdopterAdoptions { get; set; }
     }
 }

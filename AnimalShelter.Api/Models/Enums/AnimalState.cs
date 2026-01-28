@@ -2,8 +2,9 @@
 {
     public enum AnimalState
     {
-        Waiting,
-        Adoption,
-        Adopted
+        WAITING,
+        IN_ADOPTION,
+        ADOPTED,
+        NOT_AVAILABLE
     }
 }
