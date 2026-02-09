@@ -1,6 +1,0 @@
-@AnimalShelter.Api_HostAddress = http://localhost:5034
-
-GET {{AnimalShelter.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
